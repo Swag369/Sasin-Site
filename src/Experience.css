@@ -1,0 +1,7 @@
+.experienceblurb{
+	max-width: "350px";
+	text-align: "left";
+	margin-left: "0";
+}
+
+/* so the text aligns, neither normal nor breakpoint, are working for some reason so i inlined it, but it looks good enough perma centered right. What i originally wnated was left, and then on mobile centered */

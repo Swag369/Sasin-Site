@@ -1,0 +1,48 @@
+.fullpage{
+	width: 90%;
+	margin-top: 10vh;
+}
+
+.tracknum{
+	display: flex;
+	align-content: center;
+	justify-content: flex-start;
+	padding-left: 1vw;
+	align-self: center;
+	justify-self: flex-start;
+}
+
+.tracktitle{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	align-self: center;
+	justify-self: center;
+	text-align: center;
+}
+
+.tracktime{
+	display: flex;
+	align-content: center;
+	justify-content: flex-end;
+	padding-right: 1vw;
+	align-self: center;
+	justify-self: flex-end;
+}
+
+@media (max-width: 1199px) {
+	[class*="fullpage"] {
+		width: 100%;
+		margin-top: 5vh;
+	}
+	.tracknum, .tracktime{
+		display: none;
+	}
+	.row{
+		padding: 10%, 10%, 10%, 10%;
+	}
+	.soundcloud{
+		margin-top: 9vh;
+		margin-bottom: 4vh;
+	}
+}

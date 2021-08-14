@@ -1,0 +1,23 @@
+.pics{
+	color: rgba(0,0,0,.7);
+	margin-left: 0;
+	width: 25vw;
+	justify-content: flex-end;
+}
+
+.tabsthing{
+	border-bottom: 1px solid #00022e;
+}
+
+
+@media (max-width: 767px) {
+	[class*="pics"] {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: center;
+	}
+	[class*="tabsthing"] {
+		border-bottom: 0px solid white;
+	}
+}

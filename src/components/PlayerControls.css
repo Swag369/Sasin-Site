@@ -1,0 +1,10 @@
+.controls{
+    display: flex;
+}
+
+
+@media only screen and (max-width: 1025px) {
+    .controls {
+        display: none;
+    }
+}

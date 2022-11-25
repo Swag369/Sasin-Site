@@ -1,3 +1,6 @@
+//https://www.npmjs.com/package/react-photo-album?activeTab=readme
+//thats the linnk i got algorithm from
+
 import PictureMasonry from "react-photo-gallery"
 import Container from "react-bootstrap/Container"
 
